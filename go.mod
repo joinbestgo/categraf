@@ -358,4 +358,6 @@ replace (
 	github.com/moby/moby => github.com/moby/moby v27.5.1+incompatible
 	github.com/prometheus/client_golang => github.com/flashcatcloud/client_golang v1.12.2-0.20220704074148-3b31f0c90903
 	go.opentelemetry.io/collector => github.com/open-telemetry/opentelemetry-collector v0.54.0
+	github.com/coreos/etcd => github.com/coreos/etcd/v3 v3.5.18
+	
 )
