@@ -129,7 +129,7 @@ func (ins *Instance) Init() error {
 	if ins.IsPgBouncer {
 		// Remove DriveConfig and revert it by the ParseConfig method
 		// See https://github.com/influxdata/telegraf/issues/9134
-		connConfig.PreferSimpleProtocol = true
+		//connConfig.PreferSimpleProtocol = true
 	}
 
 	connectionString := stdlib.RegisterConnConfig(connConfig)
